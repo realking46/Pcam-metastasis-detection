@@ -1,0 +1,65 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data — do NOT commit raw or processed data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.h5
+*.hdf5
+
+# Model artifacts — too large for git
+results/*.pt
+results/*.pth
+results/checkpoints/
+results/wandb/
+wandb/
+
+# Logs
+*.log
+logs/
+
+# MLflow
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Env files
+.env
+.env.local
